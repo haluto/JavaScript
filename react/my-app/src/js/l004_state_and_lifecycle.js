@@ -456,6 +456,19 @@ function l004_6() {
     }
     
     ReactDOM.render(<App />, document.getElementById('root'));
+    
+    // temply, some ajax
+    const request = new XMLHttpRequest()
+    request.open('GET', 'https://api.randomuser.me/?nat=US&results=10')
+    request.onload = () => printNames(request.response)
+    request.send()
+    
+    var printNames = response => {
+        var people = JSON.parse(response).results,
+            name = people.map(({name}) => `${name.last}, ${name.first}`)
+        console.log(name.join('\n'))
+    }
+    // temply
 }
 
 /*
