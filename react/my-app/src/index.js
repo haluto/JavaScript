@@ -13,6 +13,15 @@ import {l004_1, l004_2, l004_3, l004_4, l004_5, l004_6} from './js/l004_state_an
 import {l011_1, l011_2} from './js/l011_thinking_in_react';
 //terry add for lesson. end.
 
+
+//React实战开发
+//*
+import {z1_5_1_a, z1_5_1_b} from './js/z1_5_1';
+
+
+//*/
+
+
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
 
@@ -31,13 +40,17 @@ registerServiceWorker();
 //l004_6();
 
 //l011_1();
-l011_2();
+//l011_2();
 //terry add for lesson. end.
 
 
 
+//React实战开发
+//*
 
-
+//z1_5_1_a();
+z1_5_1_b();
+//*/
 
 
 
