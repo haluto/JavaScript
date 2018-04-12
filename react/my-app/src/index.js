@@ -9,6 +9,7 @@ import l001 from './js/l001_jsx';
 import l002 from './js/l002_rendering_elements';
 import {l003_1, l003_2, l003_3} from './js/l003_components_and_props';
 import {l004_1, l004_2, l004_3, l004_4, l004_5, l004_6} from './js/l004_state_and_lifecycle';
+import {l005_1, l005_2} from './js/l005_handling_events';
 
 import {l011_1, l011_2} from './js/l011_thinking_in_react';
 //terry add for lesson. end.
@@ -38,6 +39,8 @@ registerServiceWorker();
 //l004_4();
 //l004_5();
 //l004_6();
+//l005_1();
+l005_2();
 
 //l011_1();
 //l011_2();
@@ -49,7 +52,7 @@ registerServiceWorker();
 //*
 
 //z1_5_1_a();
-z1_5_1_b();
+//z1_5_1_b();
 //*/
 
 
