@@ -1,0 +1,40 @@
+.ant-upload-select-picture-card i {
+  font-size: 32px;
+  color: #999;
+}
+
+.ant-upload-text1 {
+  margin-top: 8px;
+  color: #f00;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #f00;
+}
+
+
+/*
+.dragger-image-list {
+    position: absolute;
+    width: 200px;
+    right: 8px;
+}
+*/
+
+
+/* tile uploaded pictures */
+/*
+.upload-list-inline .ant-upload-list-item {
+  float: top; // left
+  width: 200px;
+  margin-right: 8px;
+}
+
+.upload-list-inline .ant-upload-animate-enter {
+  animation-name: uploadAnimateInlineIn;
+}
+.upload-list-inline .ant-upload-animate-leave {
+  animation-name: uploadAnimateInlineOut;
+}
+*/
