@@ -3,14 +3,16 @@
   color: #999;
 }
 
-.ant-upload-text1 {
-  margin-top: 8px;
-  color: #f00;
+
+
+.dragger-image-list :global(.ant-upload.ant-upload-drag p.ant-upload-text) {
+    margin-top: 8px;
+    color: #0f0;
 }
 
-.ant-upload-select-picture-card .ant-upload-text {
-  margin-top: 8px;
-  color: #f00;
+:global(.ant-upload.ant-upload-drag p.ant-upload-hint) {
+    margin-top: 8px;
+    color: #00f;
 }
 
 
