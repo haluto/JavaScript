@@ -17,7 +17,7 @@ import {l011_1, l011_2} from './js/l011_thinking_in_react';
 //terry add for lesson. end.
 
 
-//React实战开发
+//React book
 //*
 import {z1_5_1_a, z1_5_1_b} from './js/z1_5_1';
 
@@ -29,6 +29,9 @@ import {ant001_1} from './js/ant001';
 import {ant002_1, ant002_2, ant002_3, ant002_4} from './js/ant002_image_load';
 import {ant003_1} from './js/ant003_list';
 
+
+//demo
+import {demo001_1} from './js/demo001_restful';
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
@@ -65,7 +68,7 @@ registerServiceWorker();
 
 
 
-//React实战开发
+//React book
 //*
 
 //z1_5_1_a();
@@ -78,12 +81,13 @@ registerServiceWorker();
 //ant001_1();
 //ant002_1();
 //ant002_2();
-ant002_3();
+////ant002_3();
 //ant002_4();
 //ant003_1();
 
 
-
+//demo
+demo001_1();
 
 
 
